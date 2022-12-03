@@ -27,4 +27,4 @@ let getPointsFromCharList (cList: char list): int =
         | x :: xs -> aux ((Convert.ToInt32(x)-38)+acc) xs
     aux 0 cList
         
-printfn "%A" (getPointsFromCharList (findSharedChars (readLines "/Users/Cromski/Documents/Freetime/AdventOfCode2022/Day_03/big.txt")))
+printfn "%A" (getPointsFromCharList (findSharedChars (readLines "./Day_03/big.txt")))
