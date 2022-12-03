@@ -16,4 +16,4 @@ let wing arr =
             | "C Z" -> aux (acc+7) xs
             | _ -> aux acc xs
     aux 0 arr
-printfn "%A" (wing (readLines "/Users/Cromski/Documents/Freetime/AdventOfCode2022/Day_02/big.txt"))
+printfn "%A" (wing (readLines "./Day_02/big.txt"))

@@ -18,4 +18,4 @@ let rec addTop3 arr =
         | _ -> acc
     aux arr 0 0
 
-printfn "%A" (addTop3 (List.sortDescending (wing (readLines "/Users/Cromski/Documents/Freetime/AdventOfCode2022/Day_01/pt1-big.txt"))))
+printfn "%A" (addTop3 (List.sortDescending (wing (readLines "./Day_01/pt1-big.txt"))))

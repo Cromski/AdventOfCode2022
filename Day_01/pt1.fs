@@ -11,4 +11,4 @@ let wing arr =
 
     aux [0] arr
 
-printfn "%A" (List.max (wing (readLines "/Users/Cromski/Documents/Freetime/AdventOfCode2022/Day_01/pt1-big.txt")))
+printfn "%A" (List.max (wing (readLines "./Day_01/pt1-big.txt")))
