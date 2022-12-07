@@ -1,7 +1,6 @@
 open System
 let readLines filePath = List.ofSeq(IO.File.ReadLines(filePath))
 
-
 let rec addFileSizeToAllDirInMap (map: Map<string list,int>) (path: string list) (size: int): Map<string list,int> =
     match path with
     | [] -> map
