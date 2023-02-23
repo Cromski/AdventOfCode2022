@@ -58,6 +58,3 @@ let getTailVisits (HT: H*T): int =
     Tset.Count
 
 printfn "%A" (getTailVisits (giveHeadInstructions(readLines "./Day_09/big.txt")))
-
-
-printfn "%A" (readLines "./Day_09/big.txt")
